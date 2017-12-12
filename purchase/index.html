@@ -18,7 +18,7 @@
 <meta property="og:site_name" content="MapleStory汉化">
 <meta property="og:description" content="授权分类   类型 可用于 价目 授权天数     普通版 GMS / KMS / JMS / MSEA / AriesMS / KhainiMS / FluffyMS ￥9.99 30天   怀旧私服版 MapleRoyals / MapleLegends / MapleSaga ￥4.99 30天   普通版（试用） （同上） ￥1.49 3天   怀旧私服版（试用） （同上） ￥0.99 3">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-12-05T20:55:15.056Z">
+<meta property="og:updated_time" content="2017-12-11T19:07:56.171Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="购买">
 <meta name="twitter:description" content="授权分类   类型 可用于 价目 授权天数     普通版 GMS / KMS / JMS / MSEA / AriesMS / KhainiMS / FluffyMS ￥9.99 30天   怀旧私服版 MapleRoyals / MapleLegends / MapleSaga ￥4.99 30天   普通版（试用） （同上） ￥1.49 3天   怀旧私服版（试用） （同上） ￥0.99 3">
@@ -40,13 +40,21 @@
     @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
     @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
     @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
+    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}
+  </style>
+
   <link rel="stylesheet" href="/css/style.css">
 
   <script src="/js/jquery-3.1.1.min.js"></script>
   <script src="/js/bootstrap.js"></script>
 
   <script src="/js/dialog.js"></script>
+
+  
+    <script src="/js/layer-3.1.1.min.js"></script>
+    <script src="/js/purchase_button.js"></script>
+    <link rel="stylesheet" href="/css/purchase.css" >
+  
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="/css/bootstrap.css" >
@@ -63,8 +71,6 @@
     <link rel="stylesheet" href="/css/archive.css" >
   
   
-  
-    <link rel="stylesheet" href="/css/vdonate.css" >
   
 
 </head>
@@ -184,7 +190,7 @@
     <div class="article-meta">
       
 	<a href="/purchase/index.html" class="article-date">
-	  <time datetime="2017-12-06T10:03:44.000Z" itemprop="datePublished">2017-12-06</time>
+	  <time datetime="2017-12-12T10:03:44.000Z" itemprop="datePublished">2017-12-12</time>
 	</a>
 
       
@@ -192,7 +198,7 @@
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="授权分类"><a href="#授权分类" class="headerlink" title="授权分类"></a>授权分类</h1><table>
+        <h2 id="授权分类"><a href="#授权分类" class="headerlink" title="授权分类"></a>授权分类</h2><table>
 <thead>
 <tr>
 <th>类型</th>
@@ -204,13 +210,13 @@
 <tbody>
 <tr>
 <td>普通版</td>
-<td>GMS / KMS / JMS / MSEA / AriesMS / KhainiMS / FluffyMS</td>
+<td>GMS / KMS / JMS / MSEA <br>/ AriesMS / KhainiMS / FluffyMS</td>
 <td>￥9.99</td>
 <td>30天</td>
 </tr>
 <tr>
 <td>怀旧私服版</td>
-<td>MapleRoyals / MapleLegends / MapleSaga</td>
+<td>MapleRoyals <del>/ MapleLegends / MapleSaga</del></td>
 <td>￥4.99</td>
 <td>30天</td>
 </tr>
@@ -228,35 +234,114 @@
 </tr>
 </tbody>
 </table>
-<p>** 授权时间以北京时间为准。</p>
-<h1 id="回馈一：热心打赏支持的朋友"><a href="#回馈一：热心打赏支持的朋友" class="headerlink" title="回馈一：热心打赏支持的朋友"></a>回馈一：热心打赏支持的朋友</h1><blockquote>
+<p>** 授权时间以你所在的时区为准。</p>
+<h2 id="回馈一：热心打赏支持的朋友"><a href="#回馈一：热心打赏支持的朋友" class="headerlink" title="回馈一：热心打赏支持的朋友"></a>回馈一：热心打赏支持的朋友</h2><blockquote>
 <p>凡 2017 年 12 月 11 号之前进行过打赏的朋友，可凭【交易号】：</p>
 <ul>
 <li>按 ￥0.30/天 兑换<strong>普通版</strong>授权天数。</li>
 <li>按 ￥0.15/天 兑换<strong>怀旧私服版</strong>授权天数。</li>
 </ul>
 </blockquote>
-<p>** 相当于提前购买享受 9 折优惠。</p>
-<h1 id="回馈二：注册送授权"><a href="#回馈二：注册送授权" class="headerlink" title="回馈二：注册送授权"></a>回馈二：注册送授权</h1><blockquote>
-<p>凡 2017 年 12 月 11 号之前注册的用户，随机获得 1~7 天的授权奖励。</p>
+<p>** 微信支付的请参考<a href="#支付方式">下面的说明</a>。</p>
+<h2 id="回馈二：注册送授权"><a href="#回馈二：注册送授权" class="headerlink" title="回馈二：注册送授权"></a>回馈二：注册送授权</h2><blockquote>
+<p>凡 2017 年 12 月 12 号之前注册的用户，随机获得 1~7 天的授权奖励。</p>
+</blockquote>
+<h2 id="支付方式"><a href="#支付方式" class="headerlink" title="支付方式"></a>支付方式</h2><blockquote>
+<p><span style="color:#F00; font-weight:600">不推荐使用微信支付！</span><br><span style="color:#F00; font-weight:600">不推荐使用微信支付！</span><br><span style="color:#F00; font-weight:600">不推荐使用微信支付！</span><br>（因为微信付款人和收款人的交易号不一样，后台系统无法识别。如果必须要用微信支付，请加 QQ 群 244572576 并将交易截图发给群主，核实后会将我的交易号给你，用于激活。）</p>
 </blockquote>
 
       
     </div>
-    <footer class="article-footer">
-      
-        <div id="donation_div"></div>
+    
+      <!-- <span style="font-size:0.1em; color:#ddd">** 样式参考: UUCCS，已经过同意。</span> -->
+<div class="products">
+  <div class="productsList">
+    
+      <div class="product-item">
+        <a href="javascript:;" class="border-rounded">
+          <div class="item-header">
+            <h3>普通版</h3>
+          </div>
+          <div class="item-content">
+            <div class="h2">￥9.99</div>
+            <div class="h5">30 天授权</div>
+          </div>
+          <div class="item-remarks">
+              <span>支持的游戏：</span>
+              <br />
+              （请看上面表格）
+          </div>
+          <div class="item-btn" img-url="https://raw.githubusercontent.com/genment/gclpage/gh-pages/common_images/999.png">
+            <span><i class="fa fa-qrcode" aria-hidden="true" style="color:#FFF"></i> 扫码支付</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="product-item">
+        <a href="javascript:;" class="border-rounded">
+          <div class="item-header">
+            <h3>怀旧私服版</h3>
+          </div>
+          <div class="item-content">
+            <div class="h2">￥4.99</div>
+            <div class="h5">30 天授权</div>
+          </div>
+          <div class="item-remarks">
+              <span>支持的游戏：</span>
+              <br />
+              （请看上面表格）
+          </div>
+          <div class="item-btn" img-url="https://raw.githubusercontent.com/genment/gclpage/gh-pages/common_images/499.png">
+            <span><i class="fa fa-qrcode" aria-hidden="true" style="color:#FFF"></i> 扫码支付</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="product-item">
+        <a href="javascript:;" class="border-rounded">
+          <div class="item-header">
+            <h3>普通版（试用）</h3>
+          </div>
+          <div class="item-content">
+            <div class="h2">￥1.49</div>
+            <div class="h5">试用 3 天</div>
+          </div>
+          <div class="item-remarks">
+              <span>支持的游戏：</span>
+              <br />
+              （请看上面表格）
+          </div>
+          <div class="item-btn" img-url="https://raw.githubusercontent.com/genment/gclpage/gh-pages/common_images/149.png">
+            <span><i class="fa fa-qrcode" aria-hidden="true" style="color:#FFF"></i> 扫码支付</span>
+          </div>
+        </a>
+      </div>
+    
+      <div class="product-item">
+        <a href="javascript:;" class="border-rounded">
+          <div class="item-header">
+            <h3>怀旧私服版（试用）</h3>
+          </div>
+          <div class="item-content">
+            <div class="h2">￥0.99</div>
+            <div class="h5">试用 3 天</div>
+          </div>
+          <div class="item-remarks">
+              <span>支持的游戏：</span>
+              <br />
+              （请看上面表格）
+          </div>
+          <div class="item-btn" img-url="https://raw.githubusercontent.com/genment/gclpage/gh-pages/common_images/099.png">
+            <span><i class="fa fa-qrcode" aria-hidden="true" style="color:#FFF"></i> 扫码支付</span>
+          </div>
+        </a>
+      </div>
+    
+  </div>
+</div>
 
-<script src="/js/vdonate.js"></script>
-<script>
-var a = new Donate({
-  title: '如果觉得我的程序对您有用，请随意打赏。您的支持将鼓励我继续改进！', // 可选参数，打赏标题
-  btnText: '打赏支持', // 可选参数，打赏按钮文字
-  el: document.getElementById('donation_div'),
-  wechatImage: 'https://raw.githubusercontent.com/genment/gclpage/gh-pages/common_images/WeChat.png',
-  alipayImage: 'https://raw.githubusercontent.com/genment/gclpage/gh-pages/common_images/AliPay.jpg'
-});
-</script>
+    
+    <footer class="article-footer">
       
       
         
@@ -443,18 +528,11 @@ ga('send', 'pageview');
           </div>
           <div class="modal-body">
             <p>各位小伙伴，大家好！</p>
-            <p>　　经过一段时间的开发，汉化程序 2.0 版很快就可以发布了。</p>
-            <p style="font-weight:bold">感谢：</p>
-            <p>　　非常感谢这两个月大家对我的支持，特别是打赏过的朋友，虽然人不多，十个手指头能数得过来。</p>
-            <p>　　还有感谢 GMS Reboot 各工会群、UUCCS 群、一个 MapleRoyals 小群，以及我自己的汉化群里的小伙伴的支持。</p>
-            <p style="font-weight:bold">合作：</p>
-            <p>　　汉化是一件很费时费力的工作，别以为只是单纯的从 CMS 或 TMS 直接获取数据很简单，一个十多年的游戏，积累下来的数据之多，从游戏的体积就可见一斑。再加上要提供支持的各国版本非常多，仅靠我一个人已经难以应对。</p>
-            <p>　　经过这几天的商量，我决定跟林杰合作，一起维护好 MapleStory 的汉化。</p>
-            <p style="font-weight:bold">新版：</p>
-            <p>　　相信很多人都已经知道，从 2.0 版开始，不再免费提供汉化了。收费方式已放出，了解详情可以点“去看看”。</p>
-            <p>　　新版将使用账号体系，需要注册账号才可以使用汉化服务。</p>
-            <p style="font-weight:bold">回馈：</p>
-            <p>　　自 GMS 更新 190 以来，大家至今都没有汉化可用，为了回馈大家，搞了点小活动，大家可以“去看看”。</p>
+            <p>　　汉化程序 2.0 版已经发布了。大家可以前往下载。</p>
+            <p>　　汉化数据暂时未更新，旧版仍可用。</p>
+            <p style="font-weight:bold">活动：</p>
+            <p>　　1. 打赏方式已关闭，但之前打赏过的仍然可以兑换；</p>
+            <p>　　2. 注册送授权延迟至 12 月 13 日 18:00:00（北京时间）。请下载最新版程序参与。</p>
           </div>
           <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal" onclick="onModalBtnClick1()">知道了</button>
