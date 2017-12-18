@@ -1,5 +1,5 @@
 $(function() {
-    if (!sessionStorage.getItem("notify")) {
+    if (!sessionStorage.getItem("notice")) {
         $('#myModal').modal({
             show: true,
             backdrop: true
@@ -8,10 +8,10 @@ $(function() {
 });
 
 function onModalBtnClick1() {
-    sessionStorage.setItem("notify", "have_read");
+    sessionStorage.setItem("notice", "have_read");
 }
 
 function onModalBtnClick2() {
-    sessionStorage.setItem("notify", "have_read");
-    location.href = "/purchase/?from-Notify"
+    sessionStorage.setItem("notice", "have_read");
+    location.href = "/download/?from-Notice"
 }
