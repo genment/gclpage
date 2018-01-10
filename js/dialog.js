@@ -1,7 +1,7 @@
 $(function() {
     if (!sessionStorage.getItem("notice")) {
         $('#myModal').modal({
-            show: true,
+            show: false,
             backdrop: true
         })
     }
